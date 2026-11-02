@@ -171,9 +171,10 @@ export default {
     height: var(--entry-border-width);
     background: repeating-linear-gradient(
       90deg,
-      var(--entry-border-color) 0 var(--entry-dash-length),
-      transparent var(--entry-dash-length)
-        calc(var(--entry-dash-length) + var(--entry-dash-gap))
+      var(--entry-border-color) 0,
+      var(--entry-border-color) var(--entry-dash-length),
+      transparent var(--entry-dash-length),
+      transparent calc(var(--entry-dash-length) + var(--entry-dash-gap))
     );
     pointer-events: none;
   }
@@ -245,27 +246,31 @@ export default {
   background-image:
     repeating-linear-gradient(
       90deg,
-      var(--entry-border-color) 0 var(--entry-dash-length),
-      transparent var(--entry-dash-length)
-        calc(var(--entry-dash-length) + var(--entry-dash-gap))
+      var(--entry-border-color) 0,
+      var(--entry-border-color) var(--entry-dash-length),
+      transparent var(--entry-dash-length),
+      transparent calc(var(--entry-dash-length) + var(--entry-dash-gap))
     ),
     repeating-linear-gradient(
       90deg,
-      var(--entry-border-color) 0 var(--entry-dash-length),
-      transparent var(--entry-dash-length)
-        calc(var(--entry-dash-length) + var(--entry-dash-gap))
+      var(--entry-border-color) 0,
+      var(--entry-border-color) var(--entry-dash-length),
+      transparent var(--entry-dash-length),
+      transparent calc(var(--entry-dash-length) + var(--entry-dash-gap))
     ),
     repeating-linear-gradient(
       0deg,
-      var(--entry-border-color) 0 var(--entry-dash-length),
-      transparent var(--entry-dash-length)
-        calc(var(--entry-dash-length) + var(--entry-dash-gap))
+      var(--entry-border-color) 0,
+      var(--entry-border-color) var(--entry-dash-length),
+      transparent var(--entry-dash-length),
+      transparent calc(var(--entry-dash-length) + var(--entry-dash-gap))
     ),
     repeating-linear-gradient(
       0deg,
-      var(--entry-border-color) 0 var(--entry-dash-length),
-      transparent var(--entry-dash-length)
-        calc(var(--entry-dash-length) + var(--entry-dash-gap))
+      var(--entry-border-color) 0,
+      var(--entry-border-color) var(--entry-dash-length),
+      transparent var(--entry-dash-length),
+      transparent calc(var(--entry-dash-length) + var(--entry-dash-gap))
     );
   background-size:
     100% var(--entry-border-width),

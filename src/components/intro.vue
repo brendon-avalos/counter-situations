@@ -371,30 +371,34 @@ export default {
   background:
     repeating-linear-gradient(
       90deg,
-      var(--about-border-color) 0 var(--about-dash-length),
-      transparent var(--about-dash-length)
-        calc(var(--about-dash-length) + var(--about-dash-gap))
+      var(--about-border-color) 0,
+      var(--about-border-color) var(--about-dash-length),
+      transparent var(--about-dash-length),
+      transparent calc(var(--about-dash-length) + var(--about-dash-gap))
     )
     top / 100% var(--about-border-width) no-repeat,
     repeating-linear-gradient(
       90deg,
-      var(--about-border-color) 0 var(--about-dash-length),
-      transparent var(--about-dash-length)
-        calc(var(--about-dash-length) + var(--about-dash-gap))
+      var(--about-border-color) 0,
+      var(--about-border-color) var(--about-dash-length),
+      transparent var(--about-dash-length),
+      transparent calc(var(--about-dash-length) + var(--about-dash-gap))
     )
     bottom / 100% var(--about-border-width) no-repeat,
     repeating-linear-gradient(
       0deg,
-      var(--about-border-color) 0 var(--about-dash-length),
-      transparent var(--about-dash-length)
-        calc(var(--about-dash-length) + var(--about-dash-gap))
+      var(--about-border-color) 0,
+      var(--about-border-color) var(--about-dash-length),
+      transparent var(--about-dash-length),
+      transparent calc(var(--about-dash-length) + var(--about-dash-gap))
     )
     left / var(--about-border-width) 100% no-repeat,
     repeating-linear-gradient(
       0deg,
-      var(--about-border-color) 0 var(--about-dash-length),
-      transparent var(--about-dash-length)
-        calc(var(--about-dash-length) + var(--about-dash-gap))
+      var(--about-border-color) 0,
+      var(--about-border-color) var(--about-dash-length),
+      transparent var(--about-dash-length),
+      transparent calc(var(--about-dash-length) + var(--about-dash-gap))
     )
     right / var(--about-border-width) 100% no-repeat;
 }
