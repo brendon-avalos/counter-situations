@@ -242,6 +242,7 @@ export default {
   max-width: 14rem;
   padding: 0.4rem 0.5rem;
   background-color: #ffffff;
+  border-radius: 10px;
   transform: rotate(10deg);
   background-image:
     repeating-linear-gradient(
