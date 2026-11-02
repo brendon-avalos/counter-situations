@@ -1,4 +1,13 @@
+const sass = require('sass')
+
 module.exports = {
+  css: {
+    loaderOptions: {
+      sass: {
+        implementation: sass,
+      },
+    },
+  },
   chainWebpack(config){
     config.module.rule('md')
       .test(/\.md/)

@@ -76,7 +76,7 @@ export default {
     transition: 0.2s;
   }
 
-  /deep/ {
+  ::v-deep {
     ::selection {
       background: #e6ff4d;
       color: #1e1a1a;
@@ -160,7 +160,7 @@ export default {
       font-size: 0.85rem;
     }
 
-    /deep/ {
+    ::v-deep {
       p {
         font-family: "Xanh Mono", monospace;
         font-size: 1rem;
